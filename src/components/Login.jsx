@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-green-500">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-950 via-gray-800 to-gray-950">
       <div className="bg-white p-8 rounded-lg shadow-lg w-96">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-6">Login</h2>
         <form>

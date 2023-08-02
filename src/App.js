@@ -14,6 +14,7 @@ import Contact from './components/Contact';
 import Find from './components/Find';
 import Collab from './components/Collab';
 import Connect from './components/Connect';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -29,8 +30,9 @@ function App() {
         <Route path="/Signup" element= {<Signup />} />
         <Route path="/Contact" element= {<Contact />} />
         <Route path="/Find" element= {<Find />} />
-        <Route path="/Connect" element= {<Find />} />
-        <Route path="/Collab" element= {<Find />} />
+        <Route path="/Connect" element= {<Connect />} />
+        <Route path="/Collab" element= {<Collab />} />
+        <Route path="/Team" element= {<Team />} />
         
       
     </Routes>

@@ -114,7 +114,7 @@ const Home = () => {
 };
 const FeatureSection = ({ title, description, image, link, reversed }) => {
   const flexDirection = reversed ? 'flex-row-reverse' : 'flex-row';
-
+// console.log(link);
   return (
     <div className={`flex items-center ${flexDirection} justify-center`}>
       <div className="w-1/2 p-8">
@@ -123,6 +123,7 @@ const FeatureSection = ({ title, description, image, link, reversed }) => {
         <a href={link} className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
                   Know More
                 </a>
+                
       
       </div>
       <div className="w-1/2 p-8">

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { Outlet, Link } from "react-router-dom";
+
 // Mock data for demonstration (Replace this with your actual data from the backend)
 const mockProfiles = [
     {
@@ -115,7 +117,14 @@ const FindPage = () => {
               placeholder="Filter by skills..."
               className="flex-1 border-none focus:ring-0"
             />
+            
           </div>
+          <Link
+                        to="/Team" // Replace "/login" with the actual path to your login page
+                        className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white px-8 py-3 p-2 rounded-lg font-semibold transition-colors duration-300"
+                    >
+                       Find Team
+                    </Link>
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
