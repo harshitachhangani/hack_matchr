@@ -37,7 +37,7 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission here
-    console.log(formData);
+    //console.log(formData);
   };
 
   const renderStepOne = () => {
